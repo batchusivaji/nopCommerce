@@ -1,3 +1,4 @@
+---
 pool:
   name: 'azure pipelines'
   vmImage: ubuntu-22.04
