@@ -8,12 +8,6 @@ trigger:
 steps:
   - task: DotNetCoreCLI@2
     inputs:
-      command: 'install'
-      publishWebProjects: true
-      projects: src/NopCommerce.sln
-
-  - task: DotNetCoreCLI@2
-    inputs:
       command: 'run and build'
       publishWebProjects: true
       projects: src/NopCommerce.sln
