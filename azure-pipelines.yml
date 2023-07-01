@@ -1,6 +1,6 @@
 ---
 pool:
-  name: 'Azure-pipeline'
+  name: 'Azure Pipeline'
   VmImage: 'ubuntu-22.04'
 trigger:
   - develop
