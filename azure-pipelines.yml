@@ -15,5 +15,5 @@ steps:
     displayName: Build
     inputs:
       command: 'build'
-      projects: ./src/NopCommerce.sln
+      projects: './src/NopCommerce.sln'
       arguments: '--configuration $(BuildConfiguration)'
